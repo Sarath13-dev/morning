@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="datein" value="26/07/2021"/>
+    <parameter name="firstname" value="sarat"/>
+    <parameter name="cvv" value="2"/>
+    <parameter name="address" value="korakkavadi"/>
+    <parameter name="cctype" value="2"/>
+    <parameter name="roomno" value="2"/>
+    <parameter name="ccyear" value="2"/>
+    <parameter name="dateout" value="27/07/2021"/>
+    <parameter name="ccmon" value="2"/>
+    <parameter name="url" value="https://adactinhotelapp.com/"/>
+    <parameter name="roomtype" value="2"/>
+    <parameter name="lastname" value="kumar"/>
+    <parameter name="ccno" value="1234432112344321"/>
+    <parameter name="cild" value="1"/>
+    <parameter name="password" value="Karthi@1989"/>
+    <parameter name="hotel" value="2"/>
+    <parameter name="location" value="2"/>
+    <parameter name="adult" value="2"/>
+    <parameter name="username" value="karthi007"/>
+    <classes>
+      <class name="org.login.Utilization">
+        <methods>
+          <include name="confirmation"/>
+          <include name="homepage" invocation-numbers="0"/>
+          <include name="getConfirmationOrder"/>
+          <include name="detailsPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.login.Utilization -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

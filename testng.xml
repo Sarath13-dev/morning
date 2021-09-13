@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name ="url" value="https://adactinhotelapp.com/"></parameter>
+  <parameter name ="username" value="karthi007"></parameter>
+  <parameter name ="password" value="Karthi@1989"></parameter>
+  <parameter name ="location" value="2"></parameter>
+  <parameter name ="hotel" value="2"></parameter>
+  <parameter name ="roomtype" value="2"></parameter>
+  <parameter name ="roomno" value="2"></parameter>
+  <parameter name ="datein" value="26/07/2021"></parameter>
+  <parameter name ="dateout" value="27/07/2021"></parameter>
+  <parameter name ="adult" value="2"></parameter>
+  <parameter name ="cild" value="1"></parameter>
+  <parameter name ="firstname" value="sarat"></parameter>
+  <parameter name ="lastname" value="kumar"></parameter>
+  <parameter name ="address" value="korakkavadi"></parameter>
+  <parameter name ="ccno" value="1234432112344321"></parameter>
+  <parameter name ="cctype" value="2"></parameter>
+  <parameter name ="ccmon" value="2"></parameter>
+  <parameter name ="ccyear" value="2"></parameter>
+  <parameter name ="cvv" value="2"></parameter>
+    <classes>
+      <class name="org.login.Utilization"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
